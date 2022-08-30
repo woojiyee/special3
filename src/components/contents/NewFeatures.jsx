@@ -14,6 +14,7 @@ function NewFeatures() {
                 <div className="card-body">
                 <h3 className="fw-bold">New Features of Trending Products</h3>
                 <ul className="list-group list-group-flush">
+                    {/* 이것도 map으로 돌려야하나? 대부분의 ul,li는 다 맵으로 바꿔야하나? */}
                     <li className="list-group-item bg-transparent px-0">Contrary to popular belief, Lorem Ipsum is not simply
                     random text.</li>
                     <li className="list-group-item bg-transparent px-0">All the Lorem Ipsum generators on the Internet tend.
@@ -24,8 +25,8 @@ function NewFeatures() {
                         available.</li>
                 </ul>
                 <div className="buttons mt-4 d-flex flex-column flex-lg-row gap-3">
-                    <a href="javascript:;" className="btn btn-lg btn-dark btn-ecomm px-5 py-3">Buy Now</a>
-                    <a href="javascript:;" className="btn btn-lg btn-outline-dark btn-ecomm px-5 py-3">View Details</a>
+                    {/* <a href=javascript:;" className="btn btn-lg btn-dark btn-ecomm px-5 py-3">Buy Now</a>
+                    <a href="javascript:;" className="btn btn-lg btn-outline-dark btn-ecomm px-5 py-3">View Details</a> */}
                 </div>
                 </div>
             </div>
