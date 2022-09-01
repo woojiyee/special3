@@ -1,5 +1,6 @@
 import React from 'react'
 import SectionTItle from './common/SectionTItle'
+import { Link } from 'react-router-dom'
 
 function Brand() {
     
@@ -18,14 +19,13 @@ function Brand() {
                 <div className="brands">
                     <div className="row row-cols-2 row-cols-lg-5 g-4">
                         {
-                            brandImg.map(brand =>(
-                                <div className="col">
+                            brandImg.map((brand,i) =>(
+                                <div key = {i} className="col">
                                     <div className="p-3 border rounded brand-box">
                                         <div className="d-flex align-items-center">
-                                            {/* 자바스크립트는 어케 처리하지? */}
-                                            {/* <a href="javascript:;"> */}
+                                            <Link to = "#">
                                             <img src={brand}className="img-fluid" alt=""/>
-                                            {/* </a> */}
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

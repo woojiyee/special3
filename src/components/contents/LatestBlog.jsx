@@ -18,8 +18,8 @@ function LatestBlog() {
                 <div className="blog-cards">
                     <div className="row row-cols-1 row-cols-lg-3 g-4">
                         {
-                            latestblog.map(blog =>(
-                                <div className="col">
+                            latestblog.map((blog,i) =>(
+                                <div key = {i} className="col">
                                     <div className="card">
                                         <img src={blog} className="card-img-top rounded-0" alt="..."/>
                                         <div className="card-body">

@@ -37,8 +37,8 @@ function TopCategories() {
                 <div className="cartegory-box">
                     {
                         topcategories.map(categories =>(
-                            <a href="shop-grid-type-4.html">
-                                <div key = {categories.id} className="card">
+                            <a key = {categories.id} href="shop-grid-type-4.html">
+                                <div className="card">
                                     <div className="card-body">
                                         <div className="overflow-hidden">
                                             <img src={categories.img} className="card-img-top rounded-0" alt="..."/>

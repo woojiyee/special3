@@ -9,6 +9,8 @@ import OfferService from './contents/OfferService';
 import Subscribe from './contents/Subscribe';
 import TopCarousel from './contents/TopCarousel';
 import TopCategories from './contents/TopCategories';
+import { Link } from 'react-router-dom'
+
 
 function Home() {
   return (
@@ -40,7 +42,7 @@ function Home() {
         <Cart/>
 
 
-        {/* <a href="javaScript:;" className="back-to-top"><i className="bi bi-arrow-up"></i></a> */}
+        <Link to="#" className="back-to-top"><i className="bi bi-arrow-up"></i></Link>
         
 
     </div>
