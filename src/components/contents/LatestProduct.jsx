@@ -1,4 +1,8 @@
 import React from 'react'
+<<<<<<< HEAD
+=======
+import Item from './common/Item'
+>>>>>>> 486bb8a3c8b38832f775d61f7971db978585db82
 import SectionTItle from './common/SectionTItle'
 
 function LatestProduct() {
@@ -40,14 +44,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/new-arrival/01.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -70,14 +74,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to = "#">
                         <img src="assets/images/new-arrival/02.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -99,14 +103,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/new-arrival/03.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -128,14 +132,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/new-arrival/04.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -157,14 +161,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/new-arrival/05.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -186,14 +190,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/new-arrival/06.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -215,14 +219,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/new-arrival/07.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -244,14 +248,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/new-arrival/08.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -273,14 +277,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/new-arrival/09.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -302,14 +306,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/new-arrival/10.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -335,14 +339,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/best-sellar/01.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -364,14 +368,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/best-sellar/02.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -393,14 +397,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/best-sellar/03.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -423,14 +427,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/best-sellar/04.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -452,14 +456,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/best-sellar/05.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -485,14 +489,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/trending-product/01.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -514,14 +518,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/trending-product/02.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -544,14 +548,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="javascript:;">
+                    <Link to = "#">
                         <img src="assets/images/trending-product/03.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -573,14 +577,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/trending-product/04.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -602,14 +606,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/trending-product/05.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -635,14 +639,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/special-offer/01.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -664,14 +668,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/special-offer/02.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -694,14 +698,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/special-offer/03.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -723,14 +727,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/special-offer/04.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
@@ -752,14 +756,14 @@ function LatestProduct() {
                     <div className="position-relative overflow-hidden">
                     <div
                         className="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
-                        <a href="javascript:;"><i className="bi bi-heart"></i></a>
-                        <a href="javascript:;"><i className="bi bi-basket3"></i></a>
-                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
-                            className="bi bi-zoom-in"></i></a>
+                        <Link to = "#"><i className="bi bi-heart"></i></Link>
+                        <Link to = "#"><i className="bi bi-basket3"></i></Link>
+                        <Link to = "#" data-bs-toggle="modal" data-bs-target="#QuickViewModal"><i
+                            className="bi bi-zoom-in"></i></Link>
                     </div>
-                    <a href="product-details.html">
+                    <Link to="product-details.html">
                         <img src="assets/images/special-offer/05.webp" className="card-img-top" alt="..."/>
-                    </a>
+                    </Link>
                     </div>
                     <div className="card-body">
                     <div className="product-info text-center">
