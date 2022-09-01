@@ -35,6 +35,7 @@ function Cart() {
                     {
                         cart.map((cartitem) => (
                             <div>
+                                {/* cart안에 객체 아이디 값도 고유한데 unique key 쓰라는 에러가 계속 브라우저 콘솔창에 뜹니다. */}
                                 <div key = {cartitem.id} className="d-flex align-items-center gap-3">
                                     <div className="bottom-product-img">
                                         <a href="product-details.html">
