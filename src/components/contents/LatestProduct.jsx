@@ -1,4 +1,5 @@
 import React from 'react'
+import SectionTItle from './common/SectionTItle'
 
 function LatestProduct() {
   return (
